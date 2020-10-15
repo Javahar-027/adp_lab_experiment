@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+  body{
+    font-family: 'Harlow Solid';
+    background-color: black;
+  
+  }
+  .bgimg{
+      background: url(img/bg.png);
+      background-size: 100%;
+      background-repeat: no-repeat;
+      height: 100vh;
+  }
+  nav{
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    background-color:black;
+    text-align: center;
+  }
+  li{
+    display: inline-block;
+    padding: 10px;
+  }
+  a{
+    text-decoration: none;
+    line-height: 50px;
+    padding-left: 70px ;
+    color:red;
+  }
+  .main{
+    position: absolute;
+    top: 50%;
+    left: 54%;
+    transform: translate(-50%, -50%);
+    font-size: 400%;
+    color:red;
+    background-color: black;
+  }
+  #aud{
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    height: 700px;
+    background-color: black;
+    background-repeat: no-repeat;   
+  }
+  .rem img{
+    justify-content: center;
+      text-align: center; 
+      margin-top: 20%;
+      width:100%;
+  }
+  #vid{
+    width: 100%;
+    height: 500px;
+    text-align: center;
+  }
+  #myVideo {
+    position: relative;
+    width: 100%;
+    height: 50%;
+  }
